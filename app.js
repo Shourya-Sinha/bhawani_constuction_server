@@ -33,7 +33,8 @@ app.use(helmet.xssFilter());
 const allowedOrigins = [
     "http://localhost:5173",
     "http://localhost:7000",
-    "http://localhost:8080"
+    "http://localhost:8080",
+    "https://bhawani-constuction-server.onrender.com"
 ];
 
 app.use(cors({
