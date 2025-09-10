@@ -36,6 +36,14 @@ const allowedOrigins = [
     "http://localhost:8080",
     "https://bhawani-constuction-server.onrender.com",
     "https://maabhawaniconstruction.info",
+    "https://maabhawaniconstruction.info",
+    "http://maabhawaniconstruction.info",
+    "https://www.maabhawaniconstruction.info",
+    "http://www.maabhawaniconstruction.info",
+    "https://maabhawaniconstruction.info/",
+    "http://maabhawaniconstruction.info/",
+    "https://www.maabhawaniconstruction.info/",
+    "http://www.maabhawaniconstruction.info/",
 ];
 
 app.use(cors({
