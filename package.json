@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "backend server for editing our bhawani construction website",
+  "license": "ISC",
+  "author": "Shourya Sinha",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --inspect=0.0.0.0:9229 server.js",
+    "build": "npm install && npm install --prefix qr_generator && npm run build --prefix qr_generator",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^8.0.1",
+    "helmet": "^8.1.0",
+    "imagekit": "^6.0.0",
+    "mongoose": "^8.18.0",
+    "multer": "^2.0.2"
+  }
+}
