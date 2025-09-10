@@ -44,6 +44,16 @@ const allowedOrigins = [
     "http://maabhawaniconstruction.info/",
     "https://www.maabhawaniconstruction.info/",
     "http://www.maabhawaniconstruction.info/",
+    "https://bhawani-construction-admin-panel.onrender.com",
+    "https://www.bhawani-construction-admin-panel.onrender.com",
+    "https://bhawani-construction-admin-panel.onrender.com/",
+    "https://www.bhawani-construction-admin-panel.onrender.com/",
+    "https://shourya-sinha.github.io",
+    "https://shourya-sinha.github.io/",
+    "https://shourya-sinha.github.io/bhawani_construction_admin_panel/",
+    "https://www.shourya-sinha.github.io/bhawani_construction_admin_panel/",
+    "https://shourya-sinha.github.io/bhawani_construction_admin_panel",
+    "https://www.shourya-sinha.github.io/bhawani_construction_admin_panel"
 ];
 
 app.use(cors({
