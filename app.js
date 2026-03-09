@@ -54,7 +54,8 @@ const allowedOrigins = [
     "https://www.shourya-sinha.github.io/bhawani_construction_admin_panel/",
     "https://shourya-sinha.github.io/bhawani_construction_admin_panel",
     "https://www.shourya-sinha.github.io/bhawani_construction_admin_panel",
-    "https://bhawani-constuction-server-7sai.onrender.com"
+    "https://bhawani-constuction-server-7sai.onrender.com",
+    "https://bhawani-construction.vercel.app"
 ];
 
 app.use(cors({
