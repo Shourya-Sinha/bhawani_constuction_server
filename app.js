@@ -53,7 +53,8 @@ const allowedOrigins = [
     "https://shourya-sinha.github.io/bhawani_construction_admin_panel/",
     "https://www.shourya-sinha.github.io/bhawani_construction_admin_panel/",
     "https://shourya-sinha.github.io/bhawani_construction_admin_panel",
-    "https://www.shourya-sinha.github.io/bhawani_construction_admin_panel"
+    "https://www.shourya-sinha.github.io/bhawani_construction_admin_panel",
+    "https://bhawani-constuction-server-7sai.onrender.com"
 ];
 
 app.use(cors({
